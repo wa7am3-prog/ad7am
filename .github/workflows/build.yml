@@ -13,7 +13,7 @@ jobs:
       - name: Build
         run: |
           gradle wrapper --gradle-version 8.5
-         ./gradlew assembleDebug
+               - run: ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
           name: hobna-apk
